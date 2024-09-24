@@ -2,21 +2,32 @@ body {
   height: 100vh;
 }
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  text-align: center;
+}
+nav {
+  text-align: center;
+  font-size: large;
+  text-decoration: none;
+}
+header img{
+  width: 250px;
 }
 
-header img {
-  display: block;
-  margin: 5px auto;
-  max-width: 100%;
-  margin-top: 20px;
-  width: 250px;
-  height: 50px;
+.navtitle {
+  text-align: center;
+}
+.links {
+  text-align: center;
+  padding: 15px;
+}
+
+.imgheader {
+  padding: 10px;  
+  display: block;  
 }
 .rodape {
-  position: absolute;
-  bottom: 0%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
   width: 100%;
 }
