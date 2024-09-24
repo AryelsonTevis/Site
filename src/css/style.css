@@ -1,18 +1,17 @@
-body {
-  height: 100vh;
-}
 header {
   text-align: center;
 }
 nav {
   text-align: center;
   font-size: large;
-  text-decoration: none;
+  padding-top: 15px;
 }
-header img{
+header img {
   width: 250px;
 }
-
+h2 {
+  font-size: small;
+}
 .navtitle {
   text-align: center;
 }
@@ -22,8 +21,8 @@ header img{
 }
 
 .imgheader {
-  padding: 10px;  
-  display: block;  
+  padding: 10px;
+  display: block;
 }
 .rodape {
   position: fixed;
