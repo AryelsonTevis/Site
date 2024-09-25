@@ -13,6 +13,14 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
+  padding-bottom: 52px;
+}
+header {
+  text-align: center;
+}
+
+header img {
+  width: 250px;
 }
 header {
   background-color: #1a0b2e;
@@ -44,10 +52,10 @@ h2 {
   transition: 0.2s;
 }
 .rodape {
+  bottom: 0;
   display: flex;
   justify-content: center;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
   text-align: center;
   width: 100%;
 }
