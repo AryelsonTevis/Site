@@ -8,25 +8,23 @@ section {
   display: flex;
   gap: 20px;
 }
-.redes-sociais li i {
-  color: #64389e;
-}
+
 .redes-sociais li {
   list-style-type: none;
 }
-.redes-sociais a i {
-  border: 1px solid #64389e;
+.redes-sociais a img {
+  border: 5px solid #64389e;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 300px;
+  height: 300px;
   padding: 10px;
   text-align: center;
   font-size: 26px;
   transition: 0.3s;
 }
 
-.redes-sociais a i:hover {
+.redes-sociais a img:hover {
   color: #65537e;
-  border: 1px solid #65537e;
+  border: 10px solid #65537e;
   transform: scale(1.1);
 }
