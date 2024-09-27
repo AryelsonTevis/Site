@@ -1,4 +1,6 @@
 table {
+  box-shadow: 8px -8px 3px -3px #311457, -8px 8px 3px -3px #311457;
+  background-color: #1a0b2e;
   padding: 10px;
   border-radius: 3px;
   border-style: groove;
@@ -9,6 +11,12 @@ td {
   padding: 5px;
   border-color: slategrey;
   color: white;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
 }
 .tabelaLinks {
   padding-top: 100px;
@@ -21,11 +29,4 @@ td {
 }
 .linkNav {
   padding: 20px;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 35px;
 }
