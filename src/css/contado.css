@@ -2,6 +2,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 35px;
 }
 .redes-sociais {
   display: flex;
