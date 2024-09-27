@@ -1,0 +1,15 @@
+.section {
+  text-align: center;
+  margin: 35px;
+}
+.imagem img {
+  width: 300px;
+  
+}
+
+.txt {
+  padding: 40px;
+  font-size: larger;
+  margin: 40px;
+}
+
