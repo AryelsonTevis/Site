@@ -13,7 +13,6 @@ td {
   color: white;
 }
 section {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 35px;
@@ -29,4 +28,10 @@ section {
 }
 .linkNav {
   padding: 20px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

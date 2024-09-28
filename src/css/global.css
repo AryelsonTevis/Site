@@ -58,5 +58,11 @@ h2 {
   justify-content: center;
   position: absolute;
   text-align: center;
-  width: 100%;  
+  width: 100%;
+}
+.title {
+  font-family: "Plus Jakarta Sans";
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
 }
