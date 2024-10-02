@@ -1,4 +1,5 @@
-table {
+.tabela {
+  width: 600px;
   box-shadow: 8px -8px 3px -3px #311457, -8px 8px 3px -3px #311457;
   background-color: #1a0b2e;
   padding: 10px;
@@ -6,32 +7,36 @@ table {
   border-style: groove;
   border-color: slategrey;
 }
-td {
-  border-style: groove;
-  padding: 5px;
-  border-color: slategrey;
-  color: white;
-}
-section {
+.secao {
   justify-content: center;
   align-items: center;
   margin: 35px;
 }
-.tabelaLinks {
-  padding-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .titleNav {
   text-align: center;
 }
 .linkNav {
   padding: 20px;
 }
+.title{
+  font-size: xx-large;
+}
+td {
+  font-size: larger;
+  border-style: groove;
+  padding: 5px;
+  border-color: slategrey;
+  color: white;
+}
+
 
 div {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a{
+  text-align: center;
 }
