@@ -19,8 +19,14 @@
 .linkNav {
   padding: 20px;
 }
-.title{
+.title {
   font-size: xx-large;
+}
+.links:hover a {
+  color: #311457;
+}
+.links a {
+  color: #6e3caf;
 }
 td {
   font-size: larger;
@@ -30,13 +36,12 @@ td {
   color: white;
 }
 
-
 div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-a{
+a {
   text-align: center;
 }
