@@ -24,6 +24,12 @@
     width: 400px;
     height: auto;
   }
+  .secao {
+    margin-bottom: 400px;
+  }
+  .redes-sociais{
+    margin-bottom: 400px;
+  }  
 }
 @media (max-width: 480px) {
   .title {
@@ -37,6 +43,17 @@
   }
   .animes .anime img {
     width: 180px;
+  }
+  .redes-sociais li img {
+    width: 150px;
+    height: auto;
+  }
+  .redes-sociais{
+    margin: 70px;
+    margin-bottom: 550px;
+  }
+  .secao {
+    margin-bottom: 280px;
   }
 }
 @media (max-width: 430px) {
@@ -69,7 +86,7 @@
     font-size: larger;
   }
   .secao {
-    margin-top: 10px;
+    margin-bottom: 180px;
   }
   .tabela {
     width: 400px;
@@ -77,5 +94,21 @@
   }
   .animes .anime img {
     width: 150px;
+  }
+  .redes-sociais {
+    margin-bottom: 450px;
+  }
+}
+
+@media (max-width: 400px){
+  .redes-sociais {
+    margin: 50px;
+    margin-bottom: 350px;
+  }
+  .secao {
+    margin-bottom: 100px;
+  }
+  .redes-sociais {
+    margin-bottom: 390px;
   }
 }
