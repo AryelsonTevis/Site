@@ -6,10 +6,12 @@
   width: 300px;
 }
 h2 {
+  font-size: xx-large;
   margin-bottom: 30px;
 }
 .txt {
   padding: 40px;
   font-size: larger;
   margin: 40px;
+  text-align: justify;
 }
